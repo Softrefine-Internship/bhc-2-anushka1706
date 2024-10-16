@@ -1,1 +1,69 @@
 /* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  font-family: "Roboto";
+}
+main {
+  background-color: white;
+  margin: 20px 0;
+  /* height: 100vh; */
+  width: 100vw;
+  padding: 30px;
+}
+.newsletter {
+  width: 100%;
+  background-color: rgb(32, 41, 62);
+  height: 78vh;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to top, #111827, rgba(57, 35, 74, 1), #111827);
+}
+.newsletter section {
+  height: 300px;
+  width: 550px;
+  gap: 25px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  flex-direction: column;
+}
+.newsletter section h2 {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+.newsletter section p {
+  color: rgba(255, 255, 255, 0.627);
+  text-align: center;
+  line-height: 1.8;
+  margin-top: 7px;
+  font-size: 18px;
+}
+.notify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.notify input {
+  width: 300px;
+  height: 20px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.187);
+  border: 1px solid rgba(230, 226, 226, 0.15);
+}
+.notify button {
+  background-color: white;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+  font-weight: bolder;
+}

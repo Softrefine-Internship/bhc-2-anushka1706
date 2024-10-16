@@ -1,1 +1,59 @@
 /* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+main{
+    background-color:  rgba(16, 24, 38, 255);;
+}
+.call-to-action img {
+  width: 120vh;
+  height: 110vh;
+}
+.call-to-action section {
+  display: flex;
+  justify-content: center;
+  width: 80vh;
+  height: 100vh;
+  padding-left: 160px;
+  gap:25px;
+  flex-direction: column;
+}
+.call-to-action {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.call-to-action h3 {
+  color: white;
+  font-size: 40px;
+}
+.top-p {
+  color: rgba(103, 118, 204, 255);
+  font-weight: bold;
+}
+.details {
+  color: rgba(198, 193, 193, 0.854);
+  width: 450px;
+  font-size: 18x;
+  letter-spacing: 1.6;
+  line-height:1.7;
+}
+.top-p{
+    font-size: 16px;
+}
+.call-to-action button {
+  background-color: rgba(40, 48, 60, 255);
+  color: rgba(219,220,222,255);
+  width: 170px;
+  padding: 12px;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.call-to-action div{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}

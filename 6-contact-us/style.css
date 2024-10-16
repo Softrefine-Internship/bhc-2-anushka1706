@@ -1,1 +1,105 @@
 /* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto";
+  height: 100vh;
+  background-color: black;
+}
+.contact-us {
+  width: 900px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: white;
+  gap: 70px;
+  height: 135vh;
+}
+.heading {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: column;
+  gap: 10px;
+  align-self: center;
+  text-align: center;
+}
+.heading h3{
+    font-size: 35px;
+}
+.heading p{
+    color: grey;
+}
+form {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.name-div {
+  display: flex;
+  gap: 30px;
+}
+.firstname,
+.lastname {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.firstname input,
+.lastname input,
+.fields input,
+.text-area-message {
+  width: 220px;
+  height: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.328);
+  box-shadow: 0 0 5px rgba(128, 128, 128, 0.158);
+  border-radius: 4px;
+}
+.fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.fields input {
+  width: 472px;
+}
+.text-area-message {
+  width: 472px;
+  height: 100px;
+}
+.phone::placeholder{
+    padding-left: 10px;
+}
+.phone::placeholder::before{
+    content: '⬇️';
+}
+.toggle-off{
+    height: 30px;
+    width: 30px;
+    border: none;
+}
+.notification{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    align-self: flex-start;
+    font-size: 13px;
+}
+.policy span{
+    color:rgba(72,72,224,255);
+    font-weight: bold;
+}
+.lets-talk{
+    background-color: rgba(72,72,224,255);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+label{
+    font-size: 12px;
+    font-weight: bold;
+}

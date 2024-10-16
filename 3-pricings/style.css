@@ -1,1 +1,122 @@
 /* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+body {
+  background-color: black;
+}
+main {
+  width: 78%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: white;
+  padding: 35px 0;
+}
+.pricing {
+  height: 100vh;
+  width: 88%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  gap:60px;
+}
+.plans {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 10px;
+  align-items: start;
+}
+.plans section ul li {
+  list-style: none;
+  line-height: 2.3;
+  font-size: 10px;
+  font-weight: bolder;
+  color: rgba(128, 128, 128, 0.728);
+}
+.plans section ul li::before {
+  content: "☑️";
+  margin-right: 8px;
+}
+.heading {
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap:10px;
+}
+.heading p {
+  align-self: center;
+  text-align: center;
+  width: 550px;
+}
+.heading h2 {
+  align-self: center;
+  text-align: center;
+  font-size: 35px;
+  width: 550px;
+  font-weight: 790;
+}
+.plans section {
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  gap: 25px;
+  padding-left: 20px;
+}
+.plans div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.basics {
+  border-right: 1px solid rgba(164, 164, 164, 0.187);
+}
+.essentials {
+  border-right: 1px solid rgba(164, 164, 164, 0.187);
+}
+.price-heading {
+  font-weight:1000;
+  font-size: 12px;
+  color: rgba(72, 72, 224, 255);
+}
+button {
+  background-color: rgba(72, 72, 224, 255);
+  border: none;
+  width: 225px;
+  margin-top: 20px;
+  align-self: start;
+  padding: 8px;
+  color: whitesmoke;
+  padding-right: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.details {
+  color: grey;
+}
+.plans-heading {
+  font-weight: bolder;
+  font-size: 12px;
+}
+.rate {
+  font-size: 45px;
+  font-weight: bolder;
+}
+.rate span {
+  font-size: 11px;
+  font-weight: bold;
+  color: grey;
+}
+.plan-info {
+  color: rgba(128, 128, 128, 0.68);
+  font-weight: bold;
+  font-size: 10px;
+}
+.plan-more-info {
+  font-size: 10px;
+  letter-spacing: 1.2;
+  width:220px;
+  line-height: 1.7;
+}
