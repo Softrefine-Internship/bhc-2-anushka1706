@@ -1,1 +1,78 @@
 /* write your css here */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  font-family: "Roboto";
+  height: 90vh;
+}
+main {
+  background-color: white;
+  width: 95%;
+  margin: 40px auto;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2;
+  padding: 35px;
+}
+.header button {
+  width: 80px;
+  background-color: rgba(72, 72, 224, 255);
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  height: 35px;
+  border: none;
+  border-radius: 4px;
+}
+.header p {
+  font-size: 12px;
+  color: grey;
+  letter-spacing: 1.6;
+  font-weight: bold;
+}
+table {
+  text-transform: capitalize;
+  font-size: 13px;
+  line-height: 3.6;
+  color: grey;
+  border-collapse: collapse;
+  align-self: center;
+  font-weight: bold;
+  width: 95%;
+}
+table thead tr {
+  color: black;
+  font-weight: bold;
+}
+table tbody tr td:first-child {
+  color: black;
+  font-weight: bold;
+}
+td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.199);
+}
+table tbody tr td:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+table tbody tr td:last-child span {
+  color: rgba(72, 72, 224, 255);
+}
+table tbody tr td:last-child span,
+.header button:hover {
+  cursor: pointer;
+}
+table tbody tr td:nth-child(3) {
+  text-transform: lowercase;
+}
+table tbody tr:last-child td{
+  border-bottom: none;
+}
