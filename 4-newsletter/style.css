@@ -13,13 +13,14 @@ main {
 }
 .gradient{
   position: absolute;
-  height: 200px;
-  bottom:10px;
+  height: 250px;
+  bottom:8px;
   width: 1000px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 60% 30%,rgba(57, 35, 74,100), transparent 100%);
+  border-radius:50%;
+  border-radius: 50%; 
+   background: radial-gradient(circle at 60% 30%,rgba(57, 35, 74,100), transparent 100%);
   background-size: cover;
-  filter: blur(45px);
+  filter: blur(45px); 
 }
 .newsletter {
   width: 100%;

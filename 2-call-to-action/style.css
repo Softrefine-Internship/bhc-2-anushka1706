@@ -44,11 +44,12 @@ main {
   background-color: rgba(40, 48, 60, 255);
   color: rgba(219, 220, 222, 255);
   width: 170px;
-  padding: 12px;
+  height: 40px;
+  font-size: 14px;
   border: none;
   text-align: center;
   font-weight: bold;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 .call-to-action div {
   display: flex;
