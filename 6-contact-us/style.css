@@ -10,6 +10,7 @@ body {
 }
 .contact-us {
   width: 900px;
+  position: relative;
   margin: 0 auto 0 auto;
   display: flex;
   flex-direction: column;
@@ -27,7 +28,7 @@ body {
   text-align: center;
 }
 .heading h3{
-    font-size: 35px;
+    font-size: 30px;
 }
 .heading p{
     color: grey;
@@ -102,4 +103,33 @@ form {
 label{
     font-size: 12px;
     font-weight: bold;
+}
+.gradient1 {
+  position: absolute;
+  height: 130px;
+  width: 300px;
+  top: 30px;
+  left: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: radial-gradient(
+      circle at 0 50%,
+      rgba(240, 144, 255, 0.6),
+      transparent 50%
+    ),
+    radial-gradient(circle at 0 100%, rgba(240, 144, 255, 0.6), transparent 50%);
+  background-size: cover;
+  filter: blur(50px);
+  /* overflow: hidden; */
+}
+.gradient2 {
+  position: absolute;
+  height: 180px;
+  width: 200px;
+  top: 10px;
+  left: 180px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 0 50%, #b7a3e3, transparent 80%);
+  background-size: cover;
+  filter: blur(50px);
 }
