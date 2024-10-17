@@ -18,7 +18,7 @@ main {
   width: 1000px;
   border-radius:50%;
   border-radius: 50%; 
-   background: radial-gradient(circle at 60% 30%,rgba(57, 35, 74,100), transparent 100%);
+   /* background: radial-gradient(circle at 60% 30%,rgba(57, 35, 74,100), transparent 100%); */
   background-size: cover;
   filter: blur(45px); 
 }
@@ -28,6 +28,7 @@ main {
   background-color: rgb(32, 41, 62);
   height: 635px;
   border-radius: 25px;
+  background: linear-gradient(to top,rgba(57, 35, 74,100),black);
   display: flex;
   justify-content: center;
 }
