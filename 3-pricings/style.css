@@ -41,6 +41,7 @@ gap:10px;
 }
 .heading p {
   align-self: center;
+  line-height: 1.5;
   text-align: center;
   width: 550px;
 }
