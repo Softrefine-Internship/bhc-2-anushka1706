@@ -4,35 +4,28 @@
   padding: 0;
   font-family: "Roboto";
 }
-body {
-  background-color: black;
-}
 main {
-  width: 78%;
-  height: 100vh;
   margin: 0 auto;
   background-color: white;
-  padding: 35px 0;
+  padding: 25px 0;
 }
 .pricing {
-  height: 100vh;
-  width: 88%;
   display: flex;
   margin: 0 auto;
   flex-direction: column;
+  justify-content: center;
   gap:60px;
 }
 .plans {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, auto);
+  gap:30px;
   justify-content: center;
-  gap: 10px;
-  align-items: start;
 }
 .plans section ul li {
   list-style: none;
   line-height: 2.3;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: bolder;
   color: rgba(128, 128, 128, 0.728);
 }
@@ -54,15 +47,17 @@ gap:10px;
 .heading h2 {
   align-self: center;
   text-align: center;
-  font-size: 35px;
-  width: 550px;
+  font-size: 45px;
+  width: 600px;
   font-weight: 790;
 }
 .plans section {
   display: flex;
-  justify-content:center;
   flex-direction: column;
-  gap: 25px;
+  gap: 30px;
+  align-self: start;
+  width: 300px;
+  height: 450px;
   padding-left: 20px;
 }
 .plans div {
@@ -78,14 +73,13 @@ gap:10px;
 }
 .price-heading {
   font-weight:1000;
-  font-size: 12px;
+  font-size: 15px;
   color: rgba(72, 72, 224, 255);
 }
 button {
   background-color: rgba(72, 72, 224, 255);
   border: none;
-  width: 225px;
-  margin-top: 20px;
+  width: 245px;
   align-self: start;
   padding: 8px;
   color: whitesmoke;
@@ -98,25 +92,25 @@ button {
 }
 .plans-heading {
   font-weight: bolder;
-  font-size: 12px;
+  font-size: 14px;
 }
 .rate {
   font-size: 45px;
   font-weight: bolder;
 }
 .rate span {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: bold;
   color: grey;
 }
 .plan-info {
   color: rgba(128, 128, 128, 0.68);
   font-weight: bold;
-  font-size: 10px;
+  font-size: 12px;
 }
 .plan-more-info {
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: 1.2;
-  width:220px;
+  width:270px;
   line-height: 1.7;
 }

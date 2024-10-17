@@ -5,8 +5,6 @@
 }
 body {
   font-family: "Roboto";
-  height: 100vh;
-  background-color: black;
 }
 .contact-us {
   width: 900px;
@@ -14,24 +12,22 @@ body {
   margin: 0 auto 0 auto;
   display: flex;
   flex-direction: column;
-  height: 100%;
   background-color: white;
-  gap: 70px;
-  height: 135vh;
+  gap: 55px;
 }
 .heading {
   display: flex;
-  margin-top: 40px;
+  margin-top: 25px;
   flex-direction: column;
   gap: 10px;
   align-self: center;
   text-align: center;
 }
-.heading h3{
-    font-size: 30px;
+.heading h3 {
+  font-size: 30px;
 }
-.heading p{
-    color: grey;
+.heading p {
+  color: grey;
 }
 form {
   align-self: center;
@@ -71,38 +67,40 @@ form {
   width: 472px;
   height: 100px;
 }
-.phone::placeholder{
-    padding-left: 10px;
+.phone::placeholder {
+  padding-left: 10px;
 }
-.phone::placeholder::before{
-    content: '⬇️';
+.phone::placeholder::before {
+  content: "⬇️";
 }
-.toggle-off{
-    height: 30px;
-    width: 30px;
-    border: none;
+.toggle-off {
+  height: 30px;
+  width: 30px;
+  border: none;
 }
-.notification{
-    display: flex;
-    gap:10px;
-    align-items: center;
-    align-self: flex-start;
-    font-size: 13px;
+.notification {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color:grey;
+  align-self: flex-start;
+  font-size: 13px;
 }
-.policy span{
-    color:rgba(72,72,224,255);
-    font-weight: bold;
+.policy span {
+  color: rgba(72, 72, 224, 255);
+  font-weight: bold;
 }
-.lets-talk{
-    background-color: rgba(72,72,224,255);
-    color: white;
-    border-radius: 5px;
-    border: none;
-    padding: 10px;
+.lets-talk {
+  background-color: rgba(72, 72, 224, 255);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+  font-weight: bold;
 }
-label{
-    font-size: 12px;
-    font-weight: bold;
+label {
+  font-size: 12px;
+  font-weight: bold;
 }
 .gradient1 {
   position: absolute;
