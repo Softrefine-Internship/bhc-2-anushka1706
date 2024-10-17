@@ -10,7 +10,7 @@ body {
 .container {
   background-color: white;
   width: 80%;
-  height: 100vh;
+  height: 110vh;
   margin: 0 auto;
 }
 header {
@@ -192,9 +192,9 @@ header ul li {
 .gradient4 {
   position: absolute;
   height: 150px;
-  width: 250px;
-  top: 450px;
-  left: 850px;
+  width: 150px;
+  top: 400px;
+  left: 800px;
   background: radial-gradient(
     circle at 0 80%,
     rgba(240, 144, 255, 0.6),
