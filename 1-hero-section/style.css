@@ -4,23 +4,25 @@
   padding: 0;
   font-family: sans-serif;
 }
-body{
+body {
   background-color: black;
 }
-.container{
+.container {
   background-color: white;
-  width:80%;
+  width: 80%;
   height: 100vh;
   margin: 0 auto;
 }
 header {
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: center;
   height: 70px;
 }
 header nav ul {
   display: flex;
+  position: relative;
   gap: 40px;
 }
 header ul li {
@@ -31,8 +33,6 @@ header ul li {
 .logo {
   background-color: none;
   margin-left: 25px;
-  background: linear-gradient(to bottom, rgba(240, 144, 255, 0.4), rgba(179, 205, 255, 0.4), rgba(250, 232, 242, 0.4));
-
 }
 .login-btn {
   background-color: white;
@@ -107,7 +107,7 @@ header ul li {
 .top-content h2 {
   align-self: center;
   text-align: center;
-  font-weight:bolder;
+  font-weight: bolder;
   width: 420px;
   font-size: 45px;
 }
@@ -142,4 +142,64 @@ header ul li {
   height: 12px;
   width: 10px;
   stroke-width: 3;
+}
+.gradient1 {
+  position: absolute;
+  height: 100px;
+  width: 300px;
+  top: 10px;
+  left: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: radial-gradient(
+      circle at 0 50%,
+      rgba(240, 144, 255, 0.6),
+      transparent 50%
+    ),
+    radial-gradient(circle at 0 100%, rgba(240, 144, 255, 0.6), transparent 50%);
+  background-size: cover;
+  filter: blur(50px);
+  /* overflow: hidden; */
+}
+.gradient2 {
+  position: absolute;
+  height: 150px;
+  width: 250px;
+  top: 130px;
+  left: 150px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 0 50%,
+    rgba(240, 144, 255, 0.6),
+    transparent 50%
+  );
+  background-size: cover;
+  filter: blur(50px);
+}
+.gradient3 {
+  position: absolute;
+  height: 180px;
+  width: 400px;
+  top: 10px;
+  left: 400px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: radial-gradient(circle at 0 50%, #b7a3e3, transparent 50%);
+  background-size: cover;
+  filter: blur(50px);
+}
+.gradient4 {
+  position: absolute;
+  height: 150px;
+  width: 250px;
+  top: 450px;
+  left: 850px;
+  background: radial-gradient(
+    circle at 0 80%,
+    rgba(240, 144, 255, 0.6),
+    transparent 80%
+  );
+  background-size: cover;
+  filter: blur(50px);
 }
