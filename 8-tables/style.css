@@ -62,10 +62,10 @@ table tbody tr td:last-child {
   display: flex;
   justify-content: space-between;
 }
-table tbody tr td:last-child span {
+table tbody tr td:last-child a {
   color: rgba(72, 72, 224, 255);
 }
-table tbody tr td:last-child span,
+table tbody tr td:last-child a,
 .header button:hover {
   cursor: pointer;
 }
