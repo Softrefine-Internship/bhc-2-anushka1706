@@ -20,7 +20,7 @@ main {
   gap: 70px;
 }
 .blog section h2 {
-  font-weight:800;
+  font-weight: 800;
   font-size: 30px;
 }
 .blog section p {
@@ -73,21 +73,24 @@ img {
   flex-direction: column;
   gap: 18px;
 }
+.div-post-right h3, .blog section h2 {
+  color: rgba(0, 0, 0, 0.861);
+}
 .author-section li {
   list-style: none;
   line-height: 1.7;
 }
 .author-section li:first-child {
   font-size: 13px;
+  color: rgba(0, 0, 0, 0.861);
   font-weight: bold;
 }
-.author-section li:last-child{
-    font-size: 13px;
-    color: rgb(128, 128, 128); ;
+.author-section li:last-child {
+  font-size: 13px;
+  color: rgb(128, 128, 128);
 }
-.author-section{
-    display: flex;
-    gap:15px;
-    align-items: center;
+.author-section {
+  display: flex;
+  gap: 15px;
+  align-items: center;
 }
-

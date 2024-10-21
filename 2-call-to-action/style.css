@@ -45,12 +45,16 @@ main {
   color: rgba(219, 220, 222, 255);
   width: 170px;
   height: 40px;
-  cursor: pointer;
   font-size: 14px;
   border: none;
   text-align: center;
   font-weight: bold;
   border-radius: 8px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.56);
+  color: black;
 }
 .call-to-action div {
   display: flex;

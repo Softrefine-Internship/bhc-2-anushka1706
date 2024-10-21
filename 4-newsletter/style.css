@@ -68,12 +68,20 @@ main {
   background-color: rgba(128, 128, 128, 0.187);
   border: 1px solid rgba(230, 226, 226, 0.15);
 }
+.notify input:focus{
+  color:rgba(255, 255, 255, 0.627);
+}
 .notify button {
   background-color: white;
   padding: 15px 15px;
   border-radius: 5px;
-  cursor: pointer;
   font-size: 15px;
   border: none;
   font-weight: 700;
 }
+button:hover,a:hover{
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.187);
+  color: white;
+}
+

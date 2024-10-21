@@ -55,11 +55,8 @@ input {
   height: 25px;
 }
 .remember div input[type="checkbox"] {
-  /* appearance: none; */
-  /* border-color: rgba(128, 128, 128, 0.328) !important; */
   height: 12px;
   width: 13px;
-  /* box-shadow: 0 0 5px rgba(128, 128, 128, 0.173) !important; */
   border-radius: 4px;
 }
 .names {
@@ -163,7 +160,18 @@ input {
   color: rgba(72, 72, 224, 255);
   font-weight: bold;
 }
-button,
-a {
+.signin-btn:hover{
   cursor: pointer;
+  background-color: #5c7cfa;
+}
+.twitter:hover,.git:hover{
+  background-color: rgb(217, 225, 230);
+  cursor: pointer;
+  color: black;
+}
+.forgot:hover,.free-trial:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  
+
 }

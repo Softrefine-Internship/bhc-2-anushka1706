@@ -29,12 +29,13 @@ header ul li {
 .logo {
   background-color: none;
   margin-left: 25px;
+  cursor: pointer;
 }
 a:hover {
   cursor: pointer;
 }
-.nav-links a:hover{
-cursor: pointer;
+.nav-links a:hover {
+  cursor: pointer;
 }
 .login-btn {
   background-color: white;
@@ -65,7 +66,7 @@ cursor: pointer;
 .readmore-icon {
   height: 15px;
   width: 10px;
-  stroke-width: 4;
+  stroke-width: 5;
 }
 .read-more {
   height: 10px;
@@ -73,7 +74,7 @@ cursor: pointer;
   align-self: center;
   border: 2px solid rgba(128, 128, 128, 0.107);
   border-radius: 30px;
-  gap: 3px;
+  gap: 4px;
   width: 320px;
   padding: 9px;
   color: #81828d;
@@ -213,6 +214,24 @@ cursor: pointer;
   background-size: cover;
   filter: blur(50px);
 }
-button,a{
+.get-started:hover {
   cursor: pointer;
+  background-color: #5c7cfa;
+  scale: 1.1;
+}
+.learn-more:hover,
+.login-btn:hover {
+  background-color: #5c7cfa;
+  height: 35px;
+  color: white;
+  scale: 1;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+.read-more span:hover,header ul li:hover{
+  scale: 1.12;
+  background-color: none;
+}
+header ul li:hover{
+  color:#5c7cfa;
 }
