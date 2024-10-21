@@ -45,6 +45,7 @@ main {
   color: rgba(219, 220, 222, 255);
   width: 170px;
   height: 40px;
+  cursor: pointer;
   font-size: 14px;
   border: none;
   text-align: center;

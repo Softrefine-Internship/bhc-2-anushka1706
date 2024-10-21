@@ -15,7 +15,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  font-size: 13px;
+  font-size: 15px;
 }
 header nav ul {
   display: flex;
@@ -30,6 +30,12 @@ header ul li {
   background-color: none;
   margin-left: 25px;
 }
+a:hover {
+  cursor: pointer;
+}
+.nav-links a:hover{
+cursor: pointer;
+}
 .login-btn {
   background-color: white;
   font-weight: bold;
@@ -38,19 +44,20 @@ header ul li {
   border: none;
   font-weight: bold;
   margin-right: 12px;
+  font-size: 15px;
   gap: 3px;
   align-items: center;
   width: 80px;
 }
 .login-icon {
   height: 20px;
-  stroke-width: 3;
+  stroke-width: 4;
   width: 9px;
 }
 .top-content {
   position: relative;
   margin: 120px auto;
-  gap:20px;
+  gap: 20px;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -58,17 +65,17 @@ header ul li {
 .readmore-icon {
   height: 15px;
   width: 10px;
-  stroke-width: 3.5;
+  stroke-width: 4;
 }
 .read-more {
   height: 10px;
-  font-size: 13px;
+  font-size: 14px;
   align-self: center;
   border: 2px solid rgba(128, 128, 128, 0.107);
   border-radius: 30px;
   gap: 3px;
   width: 320px;
-  padding: 8px;
+  padding: 9px;
   color: #81828d;
   justify-content: center;
   display: flex;
@@ -80,10 +87,10 @@ header ul li {
 .read-more span {
   color: rgba(126, 125, 233, 255);
   display: flex;
+  height: 15px;
   align-items: center;
-  align-self: center;
   gap: 3px;
-  font-weight: 700;
+  font-weight: bolder;
   font-size: 12px;
   font-style: "Open Sans";
 }
@@ -92,7 +99,8 @@ header ul li {
   align-self: center;
   text-align: center;
   line-height: 1.6;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 17px;
   color: #81828d;
   font-style: "Roboto Condensed";
 }
@@ -104,7 +112,7 @@ header ul li {
 .top-content h2 {
   align-self: center;
   text-align: center;
-  font-weight: bolder;
+  font-weight: 700;
   width: 580px;
   font-size: 58px;
 }
@@ -121,24 +129,28 @@ header ul li {
   border-radius: 6px;
   font-size: 12px;
   font-weight: bold;
-  width: 100px;
-  padding: 8px;
+  width: 90px;
+  padding: 10px;
   background-color: rgba(72, 72, 224, 255);
   color: white;
 }
 .learn-more {
   border: none;
-  font-size: 12px;
+  font-size: 13px;
   display: flex;
   font-weight: bold;
   align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  height: 12px;
   gap: 3px;
   background-color: white;
 }
 .learn-icon {
   height: 12px;
   width: 10px;
-  stroke-width: 3;
+  stroke-width: 3.5;
+  cursor: pointer;
 }
 .gradient1 {
   position: absolute;
@@ -161,12 +173,13 @@ header ul li {
   position: absolute;
   height: 350px;
   width: 400px;
-  bottom:420px;
-  left:220px;
+  pointer-events: none;
+  bottom: 420px;
+  left: 220px;
   border: 1px solid black;
   border-radius: 50%;
   background: radial-gradient(
-    circle at 10% 100% ,
+    circle at 10% 100%,
     rgba(240, 144, 255, 0.6),
     transparent 50%
   );
@@ -177,6 +190,7 @@ header ul li {
   position: absolute;
   height: 280px;
   width: 300px;
+  pointer-events: none;
   top: -40px;
   left: 650px;
   border: 1px solid black;
@@ -198,4 +212,7 @@ header ul li {
   );
   background-size: cover;
   filter: blur(50px);
+}
+button,a{
+  cursor: pointer;
 }
