@@ -17,7 +17,7 @@ main {
   justify-content: space-between;
   line-height: 2;
   padding: 20px 30px;
-  color: rgba(0, 0, 0, 0.772);
+  color: #262629e2;
   align-items: center;
   font-size: 15px;
 }
@@ -33,7 +33,7 @@ main {
 }
 .header p {
   font-size: 14px;
-  color: rgba(100, 97, 97, 0.914);
+  color: #81848f;
   letter-spacing: 1.6;
   font-weight: 500;
 }
@@ -41,19 +41,19 @@ table {
   text-transform: capitalize;
   font-size: 14px;
   line-height: 3.6;
-  color: rgba(128, 128, 128, 0.727);
+  color: #848993d1;
   border-collapse: collapse;
   align-self: center;
   font-weight: 450;
   width: 95%;
 }
 table thead tr {
-  color: rgba(0, 0, 0, 0.772);
+  color: #262629e2;
   font-weight: bold;
   font-size: 15px;
 }
 table tbody tr td:first-child {
-  color: rgba(0, 0, 0, 0.772);
+  color: #262629e2;
   font-weight: bold;
 }
 td {
@@ -63,7 +63,6 @@ table tbody tr td:last-child a {
   color: rgba(72, 72, 224, 255);
   display: flex;
   justify-content: end;
-
 }
 table tbody tr td:last-child a,
 .header button:hover {
@@ -72,12 +71,14 @@ table tbody tr td:last-child a,
 table tbody tr td:nth-child(3) {
   text-transform: lowercase;
 }
-table tbody tr:last-child td{
+table tbody tr:last-child td {
   border-bottom: none;
 }
-table tbody tr td:last-child:hover{
-  scale: 1.1;
+table tbody tr td:last-child:hover {
+  transition-duration: 300ms;
+  text-decoration: underline;
 }
-.header button:hover{
+.header button:hover {
   background-color: #5c7cfa;
+  transition-duration: 300ms;
 }

@@ -11,7 +11,7 @@ main {
   width: 800px;
   height: 695px;
 }
-.call-to-action section {
+.content {
   display: flex;
   justify-content: center;
   padding-left: 160px;
@@ -52,6 +52,7 @@ main {
   border-radius: 8px;
 }
 button:hover{
+  transition-duration: 300ms;
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.56);
   color: black;

@@ -22,7 +22,7 @@ main {
   gap: 30px;
   justify-content: center;
 }
-.plans section ul li {
+ul li {
   list-style: none;
   line-height: 2.3;
   display: flex;
@@ -56,7 +56,7 @@ main {
   color: rgba(0, 0, 0, 0.827);
   font-weight: 600;
 }
-.plans section {
+.plan-names {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -65,7 +65,7 @@ main {
   height: 450px;
   padding-left: 20px;
 }
-.plans div {
+.rate-div {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -116,7 +116,7 @@ button {
 }
 .plan-more-info {
   font-size: 13px;
- color: rgba(0, 0, 0, 0.759); 
+  color: rgba(0, 0, 0, 0.759);
   letter-spacing: 1.2;
   width: 270px;
   line-height: 1.7;
@@ -125,9 +125,9 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 10px;  
-  height: 10px;    
-  background-color:  rgba(72, 72, 224, 255);
+  width: 10px;
+  height: 10px;
+  background-color: rgba(72, 72, 224, 255);
   padding: 2px;
   border-radius: 50%;
 }
@@ -138,9 +138,11 @@ button {
   height: 8px;
   border: solid white;
   border-width: 0 2px 2px 0;
-  transform: rotate(45deg)
+  transform: rotate(45deg);
 }
-button:hover,a:hover{
+button:hover,
+a:hover {
   cursor: pointer;
   background-color: #5c7cfa;
+  transition-duration: 300ms;
 }

@@ -6,7 +6,6 @@
 }
 .container {
   background-color: white;
-  /* width: 80%; */
   height: 100vh;
   margin: 0 auto;
 }
@@ -105,7 +104,7 @@ a:hover {
   color: #81828d;
   font-style: "Roboto Condensed";
 }
-.top-content section {
+.top-content-details {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -217,21 +216,20 @@ a:hover {
 .get-started:hover {
   cursor: pointer;
   background-color: #5c7cfa;
-  scale: 1.1;
+  transition-duration: 300ms;
 }
 .learn-more:hover,
 .login-btn:hover {
-  background-color: #5c7cfa;
-  height: 35px;
-  color: white;
-  scale: 1;
-  padding: 5px 8px;
-  border-radius: 5px;
+  text-decoration: underline;
+  transition-duration: 100ms;
 }
-.read-more span:hover,header ul li:hover{
-  scale: 1.12;
-  background-color: none;
+.read-more span:hover,
+header ul li:hover {
+  text-decoration: underline;
+  transition-duration: 300ms;
 }
-header ul li:hover{
-  color:#5c7cfa;
+header ul li:hover {
+  color: #5c7cfa;
+  transition-duration: 300ms;
+  text-decoration: none;
 }

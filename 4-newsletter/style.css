@@ -79,9 +79,10 @@ main {
   border: none;
   font-weight: 700;
 }
-button:hover,a:hover{
+button:hover{
   cursor: pointer;
   background-color: rgba(128, 128, 128, 0.187);
   color: white;
+  transition-duration: 300ms;
 }
 

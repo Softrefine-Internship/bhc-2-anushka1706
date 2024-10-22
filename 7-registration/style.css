@@ -50,9 +50,12 @@ label {
 }
 input {
   border: 1px solid rgba(128, 128, 128, 0.328);
-  box-shadow: 0 0 5px rgba(128, 128, 128, 0.158);
+  /* box-shadow: 0 0 5px rgba(128, 128, 128, 0.158); */
   border-radius: 4px;
-  height: 25px;
+  height: 26px;
+}
+input:focus{
+  outline: 1px solid black;
 }
 .remember div input[type="checkbox"] {
   height: 12px;
@@ -62,8 +65,8 @@ input {
 .names {
   display: flex;
   flex-direction: column;
-  color: rgba(0, 0, 0, 0.736);
-  gap: 5px;
+  color: #36383a;
+  gap: 7px;
   font-weight: none;
 }
 .remember {
@@ -160,18 +163,21 @@ input {
   color: rgba(72, 72, 224, 255);
   font-weight: bold;
 }
-.signin-btn:hover{
+.signin-btn:hover {
   cursor: pointer;
   background-color: #5c7cfa;
+  transition-duration: 300ms;
 }
-.twitter:hover,.git:hover{
+.twitter:hover,
+.git:hover {
   background-color: rgb(217, 225, 230);
+  transition-duration: 300ms;
   cursor: pointer;
   color: black;
 }
-.forgot:hover,.free-trial:hover{
+.forgot:hover,
+.free-trial:hover {
   text-decoration: underline;
   cursor: pointer;
-  
-
+  transition-duration: 300ms;
 }

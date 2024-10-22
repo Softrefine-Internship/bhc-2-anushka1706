@@ -10,46 +10,53 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
-      <section class="top">
-      <img src="./logo.png" height="55px" width="55px">
-      <h2>Sign in to your account</h2>
-    </section>
+      <header class="top">
+        <img src="./logo.png" height="55px" width="55px" />
+        <h2>Sign in to your account</h2>
+      </header>
       <form>
         <div class="info">
-        <section class="names">
-          <label>Email address</label>
-          <input type="email">
-        </section>
-        <section class="names">
-          <label>Password</label>
-          <input type="password">
-        </section>
-        <section class="remember">
-          <div><input type="checkbox" class="cutom-checkbox" id="remember-check"/><label for="remember-check" class="remember-label">Remember me</label></div>
-          <a class="forgot">Forgot password?</a>
-        </section>
-        <button  class="signin-btn"><a>Sign in</a></button>
-      </div>
-      <div class="signin-opts">
-        <section class="continue">
-        <div class="line"></div>
-        <span>Or continue with</span>
-        <div class="line"></div>
-      </section>
-      </section>
-      <section class="social">
-        <button class="twitter"><img src="./twitter.png"/><a>Twitter</a></button>
-        <button class="git"><img src="./github.png"/><a>Github</a></button>
-      </section>
-      </div>
+          <div class="names">
+            <label>Email address</label>
+            <input type="email" />
+          </div>
+          <div class="names">
+            <label>Password</label>
+            <input type="password" />
+          </div>
+          <div class="remember">
+            <div>
+              <input
+                type="checkbox"
+                class="cutom-checkbox"
+                id="remember-check"
+              /><label for="remember-check" class="remember-label"
+                >Remember me</label
+              >
+            </div>
+            <a class="forgot">Forgot password?</a>
+          </div>
+          <button class="signin-btn">Sign in</button>
+        </div>
+        <div class="signin-opts">
+          <div class="continue">
+            <div class="line"></div>
+            <span>Or continue with</span>
+            <div class="line"></div>
+          </div>
+          <div class="social">
+            <button class="twitter"><img src="./twitter.png" />Twitter</button>
+            <button class="git"><img src="./github.png" />Github</button>
+          </div>
+        </div>
       </form>
-      <section class="trial">
+      <div class="trial">
         <p>Not a member? <a class="free-trial">Start a 14 day free trial</a></p>
-      </section>
+      </div>
     </main>
   </body>
 </html>
